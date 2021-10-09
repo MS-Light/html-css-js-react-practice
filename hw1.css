@@ -1,0 +1,32 @@
+div{
+    padding: 10px;
+}
+.infoTable > table{
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+.infoTable td, th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+}
+.searchBar{
+    display: flex;
+    border: 1px solid #5f6368;
+    z-index: 3;
+    height: 44px;
+    width: auto;
+    max-width: 600px;
+    border-radius: 24px;
+}
+.searchBar > input{
+    background-color: transparent;
+    border: none;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    height: 34px;
+    font-size: 20px;
+}
